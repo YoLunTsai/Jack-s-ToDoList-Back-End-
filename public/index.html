@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- icon -->
+    <link rel="icon" href="./images/TodoList.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title>Jack's ToDoList</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <img src="./images/TodoList.png" class="icon">Jack's ToDoList
+        </header>
+        <div class="row no-gutters">
+            <div class="col-lg-4 p-4">
+                <div id="first_input" class="p-2">待辦事項 | 標題：<input type="text" id="title" name="title"></div>
+                <div class="p-2">待辦事項 | 內容：<input type="text" id="message" name="message"></div>
+                <button type="button" onclick="addList()">確認</button>
+            </div>
+            <div class="col-lg-8 p-4 flex-box"></div>
+        </div>
+        <footer class="py-2 text-center">Hosted on GitHub Pages.<br>
+            Developer | Designer : Yo-Lun Tsai</footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./javascripts/jquery-3.5.1.min.js"></script>
+    <script src="./javascripts/bootstrap.js"></script>
+    <script src="./javascripts/todolist.js"></script>
+</body>
+
+</html>
